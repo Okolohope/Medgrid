@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 import Sidebar from "./components/Sidebar"
 
 import Home from "./pages/Home";
@@ -25,7 +26,7 @@ function App() {
         <div className="flex-1 flex flex-col">
           <Navbar onMenuClick={openSidebar} />
 
-          <main className="p-4">
+          <main className="p-4 bg-gradient-to-br from-green-100 to-blue-200 w-full">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
@@ -35,6 +36,8 @@ function App() {
               <Route path="/waitlist" element={<Waitlist />} />
             </Routes>
           </main>
+
+          <Footer />
         </div>
       </div>
     </BrowserRouter>
