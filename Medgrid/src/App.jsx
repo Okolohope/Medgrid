@@ -1,4 +1,6 @@
+import { useState } from "react";
 import Navbar from "./components/Navbar"
+import Sidebar from "./components/Sidebar"
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -10,18 +12,31 @@ import Waitlist from "./pages/Waitlist";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openSidebar = () => setIsOpen(true);
+  const closeSidebar = () => setIsOpen(false);
+
   return (
     <BrowserRouter>
-      <Navbar/>
-      
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/benefits" element={<Benefits />} />
-        <Route path="/solutions" element={<Solutions />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/waitlist" element={<Waitlist />} />
-      </Routes>
+      <div className="min-h-screen flex">
+        <Sidebar isOpen={isOpen} onClose={closeSidebar} />
+
+        <div className="flex-1 flex flex-col">
+          <Navbar onMenuClick={openSidebar} />
+
+          <main className="p-4">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/benefits" element={<Benefits />} />
+              <Route path="/solutions" element={<Solutions />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/waitlist" element={<Waitlist />} />
+            </Routes>
+          </main>
+        </div>
+      </div>
     </BrowserRouter>
   );
 }
