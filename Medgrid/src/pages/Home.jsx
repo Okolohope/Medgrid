@@ -22,7 +22,7 @@ function Home() {
       </section>
 
       <section className="text-center grid grid-cols-4 gap-4 max-w-5xl mx-auto">
-        <div className="bg-green-200 p-6 rounded-xl">
+        <div className="bg-green-100 p-6 rounded-xl">
           <Search className="w-8 h-8 mb-4 mx-auto" />
           <h1 className="font-bold">Find Medicine</h1>
           <p>
@@ -31,7 +31,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="bg-green-200 p-6 rounded-xl">
+        <div className="bg-green-100 p-6 rounded-xl">
           <Cross className="w-8 h-8 mb-4 mx-auto" />
           <h1 className="font-bold">Find Care</h1>
           <p>
@@ -40,7 +40,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="bg-green-200 p-6 rounded-xl">
+        <div className="bg-green-100 p-6 rounded-xl">
           <MapPin className="w-8 h-8 mb-4 mx-auto" />
           <h1 className="font-bold">Near You</h1>
           <p>
@@ -49,7 +49,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="bg-green-200 p-6 rounded-xl">
+        <div className="bg-green-100 p-6 rounded-xl">
           <Activity className="w-8 h-8 mb-4 mx-auto" />
           <h1 className="font-bold">Real-Time Data</h1>
           <p>
