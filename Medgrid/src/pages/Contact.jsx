@@ -4,10 +4,7 @@ import InstagramSvg from "../assets/Instagram.svg";
 import TikTokSvg from "../assets/TikTok.svg";
 import FacebookSvg from "../assets/facebook.svg";
 import WhatsAppSvg from "../assets/whatsApp.svg";
-import whatsapp from "../assets/whatsapp.svg";
-import tiktok from "../assets/TikTok.svg";
-import facebook from "../assets/facebook.svg";
-import instagram from "../assets/Instagram.svg";
+
 
 function Contact() {
   const [form, setForm] = useState({ name: "", email: "", organization: "", message: "" });
