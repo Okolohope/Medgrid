@@ -1,9 +1,4 @@
 import logo from "../assets/MedGridLogo.png";
-import people from "../assets/users.png";
-import pharmacy from "../assets/pharamacy.png";
-import eye from "../assets/eye.png";
-import hospital from "../assets/hospital.png";
-import chart from "../assets/chart.png";
 import { Eye } from "lucide-react";
 import { User } from "lucide-react";
 import { Store } from "lucide-react";
@@ -15,7 +10,7 @@ function About() {
     <div className="w-full">
       <div className="mx-auto flex max-w-7xl flex-col px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
         <div className="flex items-center justify-center pt-4 md:pt-8">
-          <img src={logo} alt="MedGrid" className="h-20 w-auto sm:h-24 md:h-32 lg:h-36" />
+          <img src={logo} alt="MedGrid" className="h-20 w-auto sm:h-24 md:h-32 lg:h-36 bg-white rounded-full p-2 shadow" />
         </div>
 
         <div className="mx-auto max-w-4xl text-center py-10 px-4">
