@@ -28,22 +28,22 @@ function Sidebar({ isOpen, onClose }) {
 
                     <ul className="space-y-2">
                       <li>
-                         <NavLink to="/" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-blue-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>Home</NavLink>
+                         <NavLink to="/" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-green-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>Home</NavLink>
                      </li>
                       <li>
-                         <NavLink to="/about" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-blue-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>About Us</NavLink>
+                         <NavLink to="/about" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-green-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>About Us</NavLink>
                      </li>
                       <li>
-                         <NavLink to="/benefits" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-blue-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>Benefits</NavLink>
+                         <NavLink to="/benefits" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-green-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>Benefits</NavLink>
                       </li>
                       <li>
-                         <NavLink to="/solutions" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-blue-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>Solutions</NavLink>
+                         <NavLink to="/solutions" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-green-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>Solutions</NavLink>
                       </li>
                       <li>
-                         <NavLink to="/contact" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-blue-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>Contact Us</NavLink>
+                         <NavLink to="/contact" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-green-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>Contact Us</NavLink>
                       </li>
                       <li>
-                         <NavLink to="/waitlist" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-blue-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>Join Waitlist</NavLink>
+                         <NavLink to="/waitlist" onClick={onClose} className={({ isActive }) => isActive ? 'block px-4 py-2 rounded-lg bg-blue-50 text-green-600 font-medium' : 'block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100'}>Join Waitlist</NavLink>
                       </li>
                     </ul>
                 </nav>
