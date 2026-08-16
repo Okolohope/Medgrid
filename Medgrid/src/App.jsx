@@ -26,7 +26,7 @@ function App() {
         <div className="flex-1 flex flex-col">
           <Navbar onMenuClick={openSidebar} />
 
-          <main className="p-4 bg-gradient-to-br from-green-100 to-blue-200 w-full">
+          <main className="p-4 min-h-screen w-full bg-gradient-to-br from-green-100 to-blue-200 ">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
