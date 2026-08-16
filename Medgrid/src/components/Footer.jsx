@@ -5,7 +5,7 @@ function Footer() {
 		<footer className="mt-auto border-t border-green-200 bg-white/70 px-4 py-6 backdrop-blur-sm sm:px-6 lg:px-8">
 			<div className="mx-auto flex max-w-7xl flex-col gap-4 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
 				<p className="text-sm text-gray-700">
-					© {new Date().getFullYear()} MedGrid. All rights reserved.
+					© {new Date().getFullYear()} MedGrid_Ng. All rights reserved.
 				</p>
 
 				<div className="flex flex-wrap items-center justify-center gap-4 text-sm text-gray-700 sm:justify-end">
