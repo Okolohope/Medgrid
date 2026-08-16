@@ -16,12 +16,12 @@ function Navbar({ onMenuClick }) {
       <img src={logo} alt="MedGrid" className="h-50 w-40"/>
 
       <div className="hidden md:flex items-center gap-10">
-         <NavLink to="/" className={({ isActive }) => isActive ? 'text-blue-600 font-medium' : 'hover:opacity-70'}>Home</NavLink>
-         <NavLink to="/about" className={({ isActive }) => isActive ? 'text-blue-600 font-medium' : 'hover:opacity-70'}>About Us</NavLink>
-         <NavLink to="/benefits" className={({ isActive }) => isActive ? 'text-blue-600 font-medium' : 'hover:opacity-70'}>Benefits</NavLink>
-         <NavLink to="/solutions" className={({ isActive }) => isActive ? 'text-blue-600 font-medium' : 'hover:opacity-70'}>Solutions</NavLink>
-         <NavLink to="/contact" className={({ isActive }) => isActive ? 'text-blue-600 font-medium' : 'hover:opacity-70'}>Contact Us</NavLink>
-        <NavLink to="/waitlist" className={({ isActive }) => isActive ? 'rounded-lg bg-blue-700 px-5 py-3 text-white' : 'rounded-lg bg-blue-600 px-5 py-3 text-white'}>
+         <NavLink to="/" className={({ isActive }) => isActive ? 'text-green-600 font-medium' : 'hover:opacity-70'}>Home</NavLink>
+         <NavLink to="/about" className={({ isActive }) => isActive ? 'text-green-600 font-medium' : 'hover:opacity-70'}>About Us</NavLink>
+         <NavLink to="/benefits" className={({ isActive }) => isActive ? 'text-green-600 font-medium' : 'hover:opacity-70'}>Benefits</NavLink>
+         <NavLink to="/solutions" className={({ isActive }) => isActive ? 'text-green-600 font-medium' : 'hover:opacity-70'}>Solutions</NavLink>
+         <NavLink to="/contact" className={({ isActive }) => isActive ? 'text-green-600 font-medium' : 'hover:opacity-70'}>Contact Us</NavLink>
+        <NavLink to="/waitlist" className={({ isActive }) => isActive ? 'rounded-lg bg-green-500 px-5 py-3 text-white' : 'rounded-lg bg-[rgb(80,170,141)] px-5 py-3 text-white'}>
           Join Waitlist
         </NavLink>
         
