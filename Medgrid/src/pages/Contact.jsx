@@ -138,7 +138,7 @@ function Contact() {
 
                 <div className="mt-4">
                   <p className="text-sm font-semibold">Message us on WhatsApp</p>
-                  <a href="https://wa.me/234813863007" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 mt-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded">
+                  <a href="https://wa.me/2348138630077" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 mt-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded">
                     <img src={WhatsAppSvg} alt="WhatsApp" className="h-10 w-10 " />
                     <span>Message us on WhatsApp</span>
                   </a>
