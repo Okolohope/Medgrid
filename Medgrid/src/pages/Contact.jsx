@@ -125,13 +125,13 @@ function Contact() {
               <div className="mt-4 border-t pt-4">
                 <p className="text-sm font-semibold">Give us a follow</p>
                 <div className="flex items-center gap-4 mt-3">
-                  <a href="https://instagram.com/medgrid" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="p-2 rounded-md hover:opacity-90 ">
+                  <a href="https://instagram.com/medgrid_ng" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="p-2 rounded-md hover:opacity-90 ">
                     <img src={InstagramSvg} alt="Instagram" className="h-15 w-15 " />
                   </a>
-                  <a href="https://linkedin.com/company/medgrid" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="p-2 rounded-md hover:opacity-90 ">
-                    <img src={FacebookSvg} alt="LinkedIn" className="h-15 w-15 " />
+                  <a href="https://www.facebook.com/profile.php?id=61593540715463" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="p-2 rounded-md hover:opacity-90 ">
+                    <img src={FacebookSvg} alt="Facebook" className="h-15 w-15 " />
                   </a>
-                  <a href="https://tiktok.com/@medgrid" target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="p-2 rounded-md hover:opacity-90 ">
+                  <a href="https://tiktok.com/@medgrid_ng" target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="p-2 rounded-md hover:opacity-90 ">
                     <img src={TikTokSvg} alt="TikTok" className="h-15 w-15 " />
                   </a>
                 </div>
