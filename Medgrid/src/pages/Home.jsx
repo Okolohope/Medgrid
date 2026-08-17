@@ -11,7 +11,7 @@ function Home() {
     <>
       <section className="mx-auto max-w-5xl px-4 py-16 text-center">
         <div className="flex items-center justify-center pt-4 md:pt-8">
-          <div className="flex h-24 w-24 items-center justify-center  p-3 shadow sm:h-28 sm:w-28 md:h-32 md:w-32 lg:h-36 lg:w-36">
+          <div className="flex h-24 w-24 items-center justify-center  p-3 sm:h-28 sm:w-28 md:h-32 md:w-32 lg:h-36 lg:w-36">
             <img
               src={logo2}
               alt="MedGrid"
