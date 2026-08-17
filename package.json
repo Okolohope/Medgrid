@@ -1,0 +1,8 @@
+{
+  "name": "medgrid-root",
+  "private": true,
+  "scripts": {
+    "prebuild": "npm --prefix Medgrid install",
+    "build": "npm --prefix Medgrid run build && node -e \"const fs=require('fs');fs.rmSync('dist',{recursive:true,force:true});fs.cpSync('Medgrid/dist','dist',{recursive:true});\""
+  }
+}
