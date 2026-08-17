@@ -88,8 +88,8 @@ function Contact() {
                 <div>
                   <h3 className="font-bold text-lg">GENERAL INQUIRIES</h3>
                   <p className="text-sm text-gray-700 mt-2">For feedback, general info, and media.</p>
-                  <p className="mt-3 text-sm text-black"><span className="font-semibold">Email:</span> info@medgrid.org</p>
-                  <p className="mt-1 text-sm text-black"><span className="font-semibold">Phone:</span> +234-800-000-0001</p>
+                  <p className="mt-3 text-sm text-black"><span className="font-semibold">Email:</span> info@medgridng.app</p>
+                  <p className="mt-1 text-sm text-black"><span className="font-semibold">Phone:</span> +234-913-774-8607</p>
                 </div>
               </div>
             </div>
@@ -102,8 +102,8 @@ function Contact() {
                 <div>
                   <h3 className="font-bold text-lg">PROVIDER SUPPORT</h3>
                   <p className="text-sm text-gray-700 mt-2">Help with MedGrid OS account, features, and technical issues.</p>
-                  <p className="mt-3 text-sm text-black"><span className="font-semibold">Email:</span> support@medgrid.org</p>
-                  <p className="mt-1 text-sm text-black"><span className="font-semibold">Phone:</span> +234-800-000-0002</p>
+                  <p className="mt-3 text-sm text-black"><span className="font-semibold">Email:</span> support@medgridng.app</p>
+                  <p className="mt-1 text-sm text-black"><span className="font-semibold">Phone:</span> +234-708-724-0931</p>
                 </div>
               </div>
             </div>
@@ -116,8 +116,8 @@ function Contact() {
                 <div>
                   <h3 className="font-bold text-lg">PARTNERSHIP & NGO</h3>
                   <p className="text-sm text-gray-700 mt-2">Discuss collaborations, data access, and public health projects.</p>
-                  <p className="mt-3 text-sm text-black"><span className="font-semibold">Email:</span> partnerships@medgrid.org</p>
-                  <p className="mt-1 text-sm text-black"><span className="font-semibold">Phone:</span> +234-800-000-0003</p>
+                  <p className="mt-3 text-sm text-black"><span className="font-semibold">Email:</span> partnerships@medgridng.app</p>
+                  <p className="mt-1 text-sm text-black"><span className="font-semibold">Phone:</span> +234-813-863-0077</p>
                 </div>
               </div>
 
@@ -138,7 +138,7 @@ function Contact() {
 
                 <div className="mt-4">
                   <p className="text-sm font-semibold">Message us on WhatsApp</p>
-                  <a href="https://wa.me/2348000000001" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 mt-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded">
+                  <a href="https://wa.me/234813863007" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 mt-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded">
                     <img src={WhatsAppSvg} alt="WhatsApp" className="h-10 w-10 " />
                     <span>Message us on WhatsApp</span>
                   </a>
