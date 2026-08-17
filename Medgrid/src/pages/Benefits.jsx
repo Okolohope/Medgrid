@@ -48,7 +48,7 @@ function Benefits() {
 
           {/* CARD 1 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <Search className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <Search className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 " color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               FASTER MEDICINE FINDER
@@ -62,7 +62,7 @@ function Benefits() {
 
           {/* CARD 2 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <HandHeart className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <HandHeart className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 " color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               ACCESSIBLE CARE
@@ -75,7 +75,7 @@ function Benefits() {
 
           {/* CARD 3 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <ClipboardList className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <ClipboardList className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 " color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               UNIFIED HEALTH RECORD
@@ -89,7 +89,7 @@ function Benefits() {
 
           {/* CARD 4 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <Bell className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <Bell className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 " color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               MEDICATION ALERTS
@@ -122,7 +122,7 @@ function Benefits() {
 
           {/* CARD 1 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <Package className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <Package className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 " color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               STREAMLINED INVENTORY
@@ -136,7 +136,7 @@ function Benefits() {
 
           {/* CARD 2 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <Truck className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <Truck className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 " color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               OPTIMIZED FULFILLMENT
@@ -149,7 +149,7 @@ function Benefits() {
 
           {/* CARD 3 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <ChartNoAxesCombined className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <ChartNoAxesCombined className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4" color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               OPERATIONAL INSIGHTS
@@ -163,7 +163,7 @@ function Benefits() {
 
           {/* CARD 4 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <Network className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <Network className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4" color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               CONNECTED SUPPLY CHAIN
@@ -196,7 +196,7 @@ function Benefits() {
 
           {/* CARD 1 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <Map className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <Map className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 " color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               NATIONAL HEALTH DATA DASHBOARD
@@ -210,7 +210,7 @@ function Benefits() {
 
           {/* CARD 2 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <ChartLine className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <ChartLine className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 " color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               EFFECTIVE PROGRAM MONITORING
@@ -223,7 +223,7 @@ function Benefits() {
 
           {/* CARD 3 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <Building2 className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <Building2 className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 " color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               RESOURCE PLANNING
@@ -237,7 +237,7 @@ function Benefits() {
 
           {/* CARD 4 */}
           <div className="bg-green-100 rounded-xl p-4 md:p-6 text-center border border-green-100">
-            <BarChart3 className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4 text-green-900" />
+            <BarChart3 className="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 md:mb-4" color="rgb(43, 143, 180)" />
 
             <h3 className="font-bold text-sm md:text-lg leading-tight">
               M&E AND REPORTING

@@ -34,7 +34,7 @@ function Home() {
 
       <section className="mx-auto grid max-w-5xl grid-cols-2 gap-4 px-4 text-center md:grid-cols-4">
         <div className="rounded-xl bg-green-100 p-6 shadow-sm">
-          <Search className="mx-auto mb-4 h-8 w-8" />
+          <Search className="mx-auto mb-4 h-8 w-8" color="rgb(43, 143, 180)" />
           <h1 className="font-bold">Find Medicine</h1>
           <p>
             Search and locate<br></br>
@@ -43,7 +43,7 @@ function Home() {
         </div>
 
         <div className="rounded-xl bg-green-100 p-6 shadow-sm">
-          <Cross className="mx-auto mb-4 h-8 w-8" />
+          <Cross className="mx-auto mb-4 h-8 w-8" color="rgb(43, 143, 180)" />
           <h1 className="font-bold">Find Care</h1>
           <p>
             Connect with trusted<br></br>
@@ -52,7 +52,7 @@ function Home() {
         </div>
 
         <div className="rounded-xl bg-green-100 p-6 shadow-sm">
-          <MapPin className="mx-auto mb-4 h-8 w-8" />
+          <MapPin className="mx-auto mb-4 h-8 w-8" color="rgb(43, 143, 180)" />
           <h1 className="font-bold">Near You</h1>
           <p>
             Real time availability<br></br>
@@ -61,7 +61,7 @@ function Home() {
         </div>
 
         <div className="rounded-xl bg-green-100 p-6 shadow-sm">
-          <Activity className="mx-auto mb-4 h-8 w-8" />
+          <Activity className="mx-auto mb-4 h-8 w-8" color="rgb(43, 143, 180)" />
           <h1 className="font-bold">Real-Time Data</h1>
           <p>
             Accurate insights for<br></br>

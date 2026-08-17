@@ -206,7 +206,7 @@ function Waitlist() {
               }`}
             >
               <div className="mb-4 flex justify-center">
-                <UserRound className="h-14 w-14 text-green-700" strokeWidth={1.5} />
+                <UserRound className="h-14 w-14 " color="rgb(43, 143, 180)" strokeWidth={1.5} />
               </div>
 
               <h2 className="text-center text-2xl font-bold sm:text-3xl">
@@ -330,7 +330,7 @@ function Waitlist() {
               }`}
             >
               <div className="mb-4 flex justify-center">
-                <Hospital className="h-14 w-14 text-green-700" strokeWidth={1.5} />
+                <Hospital className="h-14 w-14 " color="rgb(43, 143, 180)" strokeWidth={1.5} />
               </div>
 
               <h2 className="text-center text-2xl font-bold sm:text-3xl">
